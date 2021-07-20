@@ -12,6 +12,7 @@
   <style>
     * {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: justify;
     }
 
     h1 {
@@ -26,20 +27,36 @@
       color: magenta;
     }
 
+    img {
+      width: 120px;
+      position: absolute;
+      right: 15px;
+      top: 40px;
+      z-index: -1;
+    }
+
     body {
       background-color: linen;
     }
 
-    table {
-      background-color: mediumaquamarine;
+    table thead {
+      background-color: teal;
       color: white;
-      overflow-x: scroll;
+    }
+
+    table tbody {
+      background-color: silver;
+    }
+
+    table tfoot {
+      background-color: grey;
+      text-align: center;
     }
   </style>
   <center>
     <h1>Resume</h1>
   </center>
-  <img src="./img/dp.jpeg" alt="my-dp" width="200px">
+  <img src="./img/dp.jpeg" alt="my-dp">
   <h3><mark>Ashok N</mark></h3>
   <a href="tel:+918973942855">
     <h3>+918973942855</h3>
@@ -47,7 +64,7 @@
   <a href="mailto:kbnashok@gmail.com">
     <h3>kbnashok@gmail.com</h3>
   </a>
-  <h3><a href="http://github.com/ashokide">http://github.com/ashokide</a></h3>
+  <h3><a href="http://github.com/ashokide" target="_blank">http://github.com/ashokide</a></h3>
   <h2>Career Objective:</h2>
   <p>
     To work in an organisation which provides me with ample opportunities to
@@ -194,12 +211,13 @@
     </tr>
     <tr>
       <td>Address</td>
-      <td>53, Kootham Palayam, Enjampalli (PO), 
+      <td>53, Kootham Palayam, Enjampalli (PO),
         Modakkurichi (Via), Erode - 638104</td>
     </tr>
   </table>
   <h4>Date:<span>20/07/2021</span></h4>
   <h4>Place:<span>Perundurai</span></h4>
+  <em>(Ashok N)</em>
 </body>
 
 </html>
